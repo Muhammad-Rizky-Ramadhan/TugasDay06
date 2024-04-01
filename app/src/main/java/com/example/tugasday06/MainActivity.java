@@ -31,20 +31,20 @@ public class MainActivity extends AppCompatActivity {
 
     private void getData() {
         arrayModell = new ArrayList<>();
-        arrayModell.add(new Model("Frieren","Sousou no Frieren", "9.39", "Woman", "Atsumi Tanezaki", "", R.drawable.jjk));
-        arrayModell.add(new Model("Fern","Sousou no Frieren", "9.39", "Woman", "Kana Ichinose", "", R.drawable.jjk));
-        arrayModell.add(new Model("Stark","Sousou no Frieren", "9.39", "Man", "Chiaki Kobayashi", "", R.drawable.jjk));
-        arrayModell.add(new Model("Aura","Sousou no Frieren", "9.39", "Woman", "Ayana Taketatsu", getString(R.string.frieren) , R.drawable.jjk));
-        arrayModell.add(new Model("Denken","Sousou no Frieren", "9.39", "Man", "Jirou Saitou", "", R.drawable.jjk));
-        arrayModell.add(new Model("Ubel","Sousou no Frieren", "9.39", "Woman", "Ikumi Hasegawa", "", R.drawable.jjk));
-        arrayModell.add(new Model("Himmel","Sousou no Frieren", "9.39", "Man", "Nabuhiko Okamoto", "", R.drawable.jjk));
-        arrayModell.add(new Model("Kaguya Shinomiya","Kaguya-sama wa Kokuraseta", "9.02", "Woman", "Aoi Koga", "", R.drawable.jjk));
-        arrayModell.add(new Model("Miyuki Shirogane","Kaguya-sama wa Kokurasetai", "9.02", "Man", "Makoto Furukawa", "", R.drawable.jjk));
-        arrayModell.add(new Model("Chika Fujiwara","Kaguya-sama wa Kokurasetai", "9.02", "Woman", "Konomi Kohara", "", R.drawable.jjk));
-        arrayModell.add(new Model("Yuu Ishigami","Kaguya-sama wa Kokurasetai", "9.02", "Man", "Ryouta Suzuki", "", R.drawable.jjk));
-        arrayModell.add(new Model("Miko Iino","Kaguya-sama wa Kokurasetai", "9.02", "Woman", "Miyu Tomita", "", R.drawable.jjk));
-        arrayModell.add(new Model("Maomao","Kusuriya no Hitorigoto", "8.93", "Woman", "Aoi Yuuki", "", R.drawable.jjk));
-        arrayModell.add(new Model("Jinshi","Kusuriya no Hitorigoto", "8.93", "Man", "Takeo Ootsuka", "", R.drawable.jjk));
-        arrayModell.add(new Model("Gyokuyou","Kusuriya no Hitorigoto", "8.93", "Woman", "Atsumi Tanezaki", "", R.drawable.jjk));
+        arrayModell.add(new Model("Frieren","anime : Sousou no Frieren", "skor : 9.39", "gender : Woman", "VA : Atsumi Tanezaki", getString(R.string.sou), R.drawable.frieren));
+        arrayModell.add(new Model("Fern","anime : Sousou no Frieren", "skor : 9.39", "gender : Woman", "VA : Kana Ichinose", getString(R.string.sou), R.drawable.fern));
+        arrayModell.add(new Model("Stark","anime : Sousou no Frieren", "skor : 9.39", "gender : Man", "VA : Chiaki Kobayashi", getString(R.string.sou), R.drawable.stark));
+        arrayModell.add(new Model("Aura","anime : Sousou no Frieren", "skor : 9.39", "gender : Woman", "VA : Ayana Taketatsu", getString(R.string.sou) , R.drawable.aura));
+        arrayModell.add(new Model("Denken","anime : Sousou no Frieren", "skor : 9.39", "gender : Man", "VA : Jirou Saitou", getString(R.string.sou), R.drawable.denken));
+        arrayModell.add(new Model("Ubel","anime : Sousou no Frieren", "skor : 9.39", "gender : Woman", "VA : Ikumi Hasegawa", getString(R.string.sou), R.drawable.ubel));
+        arrayModell.add(new Model("Himmel","anime : Sousou no Frieren", "skor : 9.39", "gender : Man", "VA : Nabuhiko Okamoto", getString(R.string.sou), R.drawable.himmel));
+        arrayModell.add(new Model("Kaguya Shinomiya","anime : Kaguya-sama wa Kokuraseta", "skor : 9.02", "gender : Woman", "VA : Aoi Koga", getString(R.string.kaguya), R.drawable.kaguya));
+        arrayModell.add(new Model("Miyuki Shirogane","anime : Kaguya-sama wa Kokurasetai", "skor : 9.02", "gender : Man", "VA : Makoto Furukawa", getString(R.string.kaguya), R.drawable.miyuki));
+        arrayModell.add(new Model("Chika Fujiwara","anime : Kaguya-sama wa Kokurasetai", "skor : 9.02", "gender : Woman", "VA : Konomi Kohara", getString(R.string.kaguya), R.drawable.chika));
+        arrayModell.add(new Model("Yuu Ishigami","anime : Kaguya-sama wa Kokurasetai", "skor : 9.02", "gender : Man", "VA : Ryouta Suzuki", getString(R.string.kaguya), R.drawable.yuu));
+        arrayModell.add(new Model("Miko Iino","anime : Kaguya-sama wa Kokurasetai", "skor : 9.02", "gender : Woman", "VA : Miyu Tomita", getString(R.string.kaguya), R.drawable.iino));
+        arrayModell.add(new Model("Maomao","anime : Kusuriya no Hitorigoto", "skor : 8.93", "gender : Woman", "VA : Aoi Yuuki", getString(R.string.mao), R.drawable.maomao));
+        arrayModell.add(new Model("Jinshi","anime : Kusuriya no Hitorigoto", "skor : 8.93", "gender : Man", "VA : Takeo Ootsuka", getString(R.string.mao), R.drawable.jinshi));
+        arrayModell.add(new Model("Gyokuyou","anime : Kusuriya no Hitorigoto", "skor : 8.93", "gender : Woman", "VA : Atsumi Tanezaki", getString(R.string.mao), R.drawable.gyokuyou));
     }
 }
